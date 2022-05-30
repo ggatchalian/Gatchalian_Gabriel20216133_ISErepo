@@ -13,3 +13,8 @@ testcat2a - BVA Black box test of category 2 hour to minute
 testcat2b - BVA Black box test of category 2 minute to hour
 testcat2c - BVA Black box test of category 2 minute to second
 testcat2d - BVA Black box test of category 2 second to minute
+
+testcat3a - White box test of category 2 hour to minute
+testcat3b - White box test of category 2 minute to hour
+testcat3c - White box test of category 2 minute to second
+testcat3d - White box test of category 2 second to minute

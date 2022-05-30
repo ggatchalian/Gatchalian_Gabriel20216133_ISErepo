@@ -6,7 +6,7 @@ class Main {
         System.out.println(Code.removeNumberUppercase("Hello World"));
         System.out.println(Code.removeNumberUppercase("6133"));
         System.out.println(Code.removeNumberUppercase("Gatchalian"));
-        System.out.println(Code.removeNumberUppercase("Gabriel Gatchalian"));
+        System.out.println(Code.removeNumberUppercase("Gabriel Gareth GATCHALIAN"));
         System.out.println(Code.removeNumberUppercase("Thor 4"));
 
         System.out.println(Code.removeNumberLowercase("Hello World"));

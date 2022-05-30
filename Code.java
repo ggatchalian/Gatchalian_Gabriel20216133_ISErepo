@@ -82,75 +82,134 @@ public class Code
     
     public static double convertMetertoFeet(double input)
     {
-        double result = input*3.280839895;
+        double result;
+        if(input>0) {
+            result = input*3.280839895;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertFeettoMeter(double input)
     {
-        double result =  input/3.280839895;
+        double result;
+        if(input>0) {
+            result = input/3.280839895;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertCentimetertoInch(double input)
     {
-        double result = input/2.54;
+        double result;
+        if(input>0) {
+            result = input/2.54;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertInchtoCentimeter(double input)
     {
-        double result = input*2.54;
+        double result;
+        if(input>0) {
+            result = input*2.54;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertKilogramtoPound(double input)
     {
-        double result = input/0.45359237;
+        double result;
+        if(input>0) {
+            result = input/0.45359237;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertPoundtoKilogram(double input)
     {
-        double result =  input*0.45359237;
+        double result;
+        if(input>0) {
+            result = input*0.45359237;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertMiligramtoOunce(double input)
     {
-        double result = input/28350;
+        double result;
+        if(input>0) {
+            result = input/28350;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertOuncetoMiligram(double input)
     {
-        double result = input*28350;
+        double result;
+        if(input>0) {
+            result = input*28350;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertHourtoMinute(double input)
     {
-        double result = input*60;
+        double result;
+        if(input>0) {
+            result = input*60;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertMinutetoHour(double input)
     {
-        double result =  input/60;
+        double result;
+        if(input>0) {
+            result = input/60;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertMinutetoSecond(double input)
     {
-        double result = input*60;
+        double result;
+        if(input>0) {
+            result = input*60;
+        } else {
+            result = 0;
+        }
         return result;
     }
 
     public static double convertSecondtoMinute(double input)
     {
-        double result = input/60;
+        double result;
+        if(input>0) {
+            result = input/60;
+        } else {
+            result = 0;
+        }
         return result;
     }
-
 
 }

@@ -212,4 +212,105 @@ public class Code
         return result;
     }
 
+    // File reader / writter
+
+    public static Boolean fileHourtoMinute(String input, String output)
+    {
+        boolean success = true;
+        String valueString = "";
+        try {
+            Scanner sc = new Scanner(new File(input));
+            valueString = sc.nextLine();
+        } catch(IOException e) {
+            success = false;
+        }
+
+        String array[]=valueString.split(" ");
+
+        try(PrintWriter writer = new PrintWriter(output)) {  
+            for(int x=0;x<array.length;x++) {
+                double valueNumber = Double.parseDouble(array[x]);
+                writer.println(convertHourtoMinute(valueNumber));
+            }
+        } catch(IOException e) {
+                success = false;
+            }
+        
+        return success;
+    }
+
+    public static Boolean fileMinutetoHour(String input, String output)
+    {
+        boolean success = true;
+        String valueString = "";
+        try {
+            Scanner sc = new Scanner(new File(input));
+            valueString = sc.nextLine();
+        } catch(IOException e) {
+            success = false;
+        }
+
+        String array[]=valueString.split(" ");
+
+        try(PrintWriter writer = new PrintWriter(output)) {  
+            for(int x=0;x<array.length;x++) {
+                double valueNumber = Double.parseDouble(array[x]);
+                writer.println(convertMinutetoHour(valueNumber));
+            }
+        } catch(IOException e) {
+                success = false;
+            }
+        
+        return success;
+    }
+
+    public static Boolean fileMinutetoSecond(String input, String output)
+    {
+        boolean success = true;
+        String valueString = "";
+        try {
+            Scanner sc = new Scanner(new File(input));
+            valueString = sc.nextLine();
+        } catch(IOException e) {
+            success = false;
+        }
+
+        String array[]=valueString.split(" ");
+
+        try(PrintWriter writer = new PrintWriter(output)) {  
+            for(int x=0;x<array.length;x++) {
+                double valueNumber = Double.parseDouble(array[x]);
+                writer.println(convertMinutetoSecond(valueNumber));
+            }
+        } catch(IOException e) {
+                success = false;
+            }
+        
+        return success;
+    }
+
+    public static Boolean fileSecondtoMinute(String input, String output)
+    {
+        boolean success = true;
+        String valueString = "";
+        try {
+            Scanner sc = new Scanner(new File(input));
+            valueString = sc.nextLine();
+        } catch(IOException e) {
+            success = false;
+        }
+
+        String array[]=valueString.split(" ");
+
+        try(PrintWriter writer = new PrintWriter(output)) {  
+            for(int x=0;x<array.length;x++) {
+                double valueNumber = Double.parseDouble(array[x]);
+                writer.println(convertSecondtoMinute(valueNumber));
+            }
+        } catch(IOException e) {
+                success = false;
+            }
+        
+        return success;
+    }
 }

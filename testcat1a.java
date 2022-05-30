@@ -6,7 +6,7 @@ class Main {
         System.out.println(Code.uppercaseConv("Hello World"));
         System.out.println(Code.uppercaseConv("6133"));
         System.out.println(Code.uppercaseConv("Gatchalian"));
-        System.out.println(Code.uppercaseConv("Gabriel Gatchalian"));
+        System.out.println(Code.uppercaseConv("Gabriel Gareth GATCHALIAN"));
         System.out.println(Code.uppercaseConv("Thor 4"));
 
         System.out.println(Code.lowercaseConv("Hello World"));

@@ -6,7 +6,7 @@ class Main {
         System.out.println(Code.containsNumber("Hello World"));
         System.out.println(Code.containsNumber("6133"));
         System.out.println(Code.containsNumber("Gatchalian"));
-        System.out.println(Code.containsNumber("Gabriel Gatchalian"));
+        System.out.println(Code.containsNumber("Gabriel Gareth GATCHALIAN"));
         System.out.println(Code.containsNumber("Thor 4"));
     }
 

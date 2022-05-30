@@ -12,7 +12,7 @@ class Main {
         System.out.println(Code.lowercaseConv("Hello World"));
         System.out.println(Code.lowercaseConv("6133"));
         System.out.println(Code.lowercaseConv("Gatchalian"));
-        System.out.println(Code.lowercaseConv("Gabriel Gatchalian"));
+        System.out.println(Code.lowercaseConv("Gabriel Gareth GATCHALIAN"));
         System.out.println(Code.lowercaseConv("Thor 4"));
     }
 
